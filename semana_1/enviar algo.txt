@@ -1,1 +1,2 @@
-Isto é um exemplo de texto
+Isto é um exemplo de texto.
+Outra linha.
