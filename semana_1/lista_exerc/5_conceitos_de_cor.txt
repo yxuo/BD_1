@@ -1,0 +1,25 @@
+5 - Definir, sem concultar o capítulo do livro (e provavelmente nenhuma fonte):
+
+Banco de dados
+    Um sistema onde se armazena e acessa informações de forma dinâmica e indexada.
+
+Sistema de gerência de banco de dados
+    Um SGBD é um programa feito para manipular um banco de dados e suas informações. Um exemplo de SGBD é Oracle e MySQL.
+
+Modelo de dados
+    É o estilo visual de como os dados são planejados. Exemplos: Modelo plano, hierárquico, rede, relacional, estrela e floco de neve.
+
+Esquema de dados
+    É a forma escrita de como os dados são planejados.
+
+Modelo conceitual
+    Modelo de dados onde foca-se em exibir o processo dos dados de forma visual, sempre com ponteiros e formas.
+
+Modelo lógico
+    Modelo de dados onde foca-se em apresentar os dados em tabelas formatadas conectadas entre si.
+
+Modelagem conceitual
+    Modelo conceitual onde apresenta-se um resumo de como o projeto inteiro de dados funcionará.
+
+Projeto lógico
+    Modelo lógico onde apresenta-se como o sistema de dados será aplicado e desenvolvido.

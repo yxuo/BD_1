@@ -1,0 +1,36 @@
+8 - UML (Unified Modeling Language) é um conjunto de conceitos usados para modelar um software, que, entre outras coisas, serve para modelar bases de dados no nível conceitual. UML é uma abordagem de modelagem de dados ou um modelo de dados?
+
+Análise:
+1       - Linguagem de modelagem unificada
+2       - Conceitos para modelar um programa de modelagem de base de dados
+2.1     - Noutras palavras, é uma lingugagem de programação para programas que criam esquemáticos. Como Drawio, LucidChart e afins.
+
+3       - Abordagem de modelagem de dados:
+            Segundo #1-p5 projeto de BD precisa modelar o que vai fazer no mesmo. Utiliza-se "abordagem Entidade Relacionamento", vulgo E-R.
+3.1     - Abordagem Entidade Relacionamento:
+            #2 explica que um modelo ER utiliza entidades que se relacionam com algum objeto. Por exemplo, a entidade Regiao se relaciona com os objetos NomeDaRegiao, Clima e Precipitacao.
+            - Baseado nessa descrição, supõe-se que uma abordagem de modelo ER seria o ato de metodologicamente apresentar seu BD através do modelo ER. #2 também comenta sobre abordagem de três esquemas, sem dar informações.
+3.2     - Abordagem de três esquemas:
+            #3 Define o que significa o termo "abordagem" aplicado ao conceito "três esquemas".
+            - A definição é, literalmente, uma abordagem para construir sistemas de informações, que utiliza três vistas diferentes (externo, conceitual e físico).
+            - Esta abordagem utilizaria a modelagem conceitual para executar esta abordagem.
+3.3     - Modelagem de dados:
+            #4 define como "criar um modelo que explique as características e funcionamento dum programa". Através deste modelo o programa será melhor entendido e menos propenso a erros de diversas áreas.
+
+Entende-se que abordagem de modelagem de dados seria uma abordagem para construir sistemas de informação, que utiliza a modelagem de dados para atingir este objetivo. Modelar dados implica criar esquemas visuais para planejar como o BD será feito.
+
+4       - UML:
+            #5 descreve UML como "um padrão criado para uma linguagem de modelagem visual". É de fato uma padronização de como você deve desenhar um esquemático, qual forma geométrica representa um ator, uma pargunta, um objeto, uma chave, etc. 
+4.1     - #6 apresenta um guia para diagramização UML, este artigo diz que UML não possui especificações para modelagem de dados. Portanto UML não é envolvida com modelo de dados.
+
+Conclusão:
+UML se trata de uma abordagem de modelagem de dados.
+É possível concluir que UML é uma abordagem sobre como deve ser feito a modelagem de dados, a fim de padronizar para permitir o entendimento universal dos técnicos envolvidos na área ao acessar as informações.
+
+Referências:
+#1 https://www.aedb.br/seget/arquivos/artigos12/65416864.pdf
+#2 https://pt.wikipedia.org/wiki/Modelo_entidade_relacionamento
+#3 https://en.wikipedia.org/wiki/Three-schema_approach 
+#4 https://pt.wikipedia.org/wiki/Modelagem_de_dados 
+#5 https://www.uml-diagrams.org/ 
+#6 https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/guide-to-uml-diagramming-and-database-modeling 

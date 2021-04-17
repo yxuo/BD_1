@@ -1,0 +1,83 @@
+<mxfile>
+    <diagram id="aUETnXjzK3NFsbkfd5LC" name="Page-1">
+        <mxGraphModel dx="506" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div&gt;Um sistema envia para o servidor novos arquivos de texto, como &quot;nome_do_arquivo&quot;.txt&lt;/div&gt;&lt;div&gt;O sistema verificará se no servidor o nome dos arquivos serão iguais, caso sim, renomeará com a extensão &quot;_n&quot;, onde n é o índice cujo nome final não esteja em uso.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="360" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="anotação.txt" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="188" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="2 - Redundância controlada" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;glass=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="40" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="240" as="sourcePoint"/>
+                        <mxPoint x="239.79999999999995" y="281.56000000000006" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="group;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="100" y="620" width="260" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=0;" parent="60" vertex="1">
+                    <mxGeometry x="20" y="20" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Nuvem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;" parent="60" vertex="1">
+                    <mxGeometry x="50" y="30" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=0;" parent="60" vertex="1">
+                    <mxGeometry x="41.25" y="60" width="178.75" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Arquivos de anotação" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;" parent="60" vertex="1">
+                    <mxGeometry x="60" y="70" width="141.26" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="anotação_1.txt" style="whiteSpace=wrap;html=1;rounded=1;glass=0;" parent="60" vertex="1">
+                    <mxGeometry x="60" y="101.82" width="98" height="38.18" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;fontSize=15;" parent="60" vertex="1">
+                    <mxGeometry x="140" y="110.91000000000003" width="71.26" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="group;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="83" y="310" width="330" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="86" vertex="1">
+                    <mxGeometry x="20" y="20" width="290" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Nome é&lt;br&gt;igual?" style="rhombus;whiteSpace=wrap;html=1;" parent="86" vertex="1">
+                    <mxGeometry x="50" y="100" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Controle de dados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="86" vertex="1">
+                    <mxGeometry x="60" y="30" width="101" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#f0f0f0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="86" source="76" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="60"/>
+                            <mxPoint x="90" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="Renomeia&lt;br&gt;&lt;i&gt;nome_(+1)&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-29;" parent="86" vertex="1">
+                    <mxGeometry x="180" y="120" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="não" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#f0f0f0;" parent="86" source="61" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Sincroniza" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" parent="86" vertex="1">
+                    <mxGeometry x="160" y="180" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="sim" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f0f0f0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="86" source="61" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;entryX=0.532;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="84" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="500" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

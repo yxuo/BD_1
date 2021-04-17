@@ -1,0 +1,16 @@
+6 - Um técnico em Informática juntamente com um futuro usuário definem formalmente que informações deverão estar armazenadas em um banco de dados a ser construído. O resultado deste processo é um modelo conceitual, um modelo lógico ou um modelo físico?
+
+Resposta:
+Entende-se que definir formalmente informações significa que se trata de um esquema de dados, contudo o enunciado não dá margem para esta conclusão. Portanto entender-se-á que definir formalmente quais tipos de informações devem ser inseridas.
+
+- Definir formalmente significa que seria um diálogo técnico.
+- Tecnicamente, dizer informações a serem armazenadas, não foi possível compreender algo que não atributos e nada além disso.
+- Segundo o que pôde-se levantar de fundamentação (#1), um modelo de dados onde coloca-se atributos se encaixa tanto em modelo conceitual quando lógico.
+- Presume-se que trata-se de resposta única, portanto, levar-se-á em conta o diálogo formal ou técnico. Neste caso, mais informações seriam informadas, como chaves.
+
+Conclusão:
+Trata-se de um modelo lógico.
+
+Fontes
+#1 - "Tabela comparativa das características dos modelos"
+    https://pt.stackoverflow.com/questions/294699/qual-a-diferen%C3%A7a-entre-modelagem-conceitual-l%C3%B3gica-e-f%C3%ADsica

@@ -1,2 +1,0 @@
-Um sistema envia para o servidor novos arquivos de texto, como "nome_do_arquivo".txt
-O sistema não verifica se no servidor o nome dos arquivos serão iguais, portanto, redundantes

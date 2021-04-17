@@ -1,0 +1,20 @@
+9 - A definição do fator de bloco de um arquivo faz parte do modelo conceitual, do modelo lógico ou do modelo físico?
+
+Análise:
+ 1  - Definição de "fator de bloco"
+        #1 Afirma que significa quantos registros cabem em um único bloco.
+        - Um bloco é a menor unidade de Dados Armazenáveis, num ssd, cartão de memória ou qualquer meio possível.
+        - Um bloco possui 512 bytes
+        - Curiosidade, a unidade bloco foi utilizada para medir dados no Nintendo Wii e Nintendo DS #2
+
+Premissa:
+1   - Modelo conceitual -> Projeto conceitual -> Abstrato, resumido, ilustrativo
+2   - Modelo lógico -> Projeto lógico -> Detalhado, arquitetado, planejado
+3   - Modelo físico - O código cru a ser rodado num SGBD
+
+Conclusão:
+Fator de bloco de um arquivo é indubitavelmente uma informação relacionada à execução de um programa de SGBD no meio físico de armazenamento. Portanto trta-se de um modelo físico.
+
+Referências:
+#1 https://stackoverflow.com/questions/15859070/blocking-factor-in-a-dbms 
+#2 https://www.nintendo.pt/Assistencia/Wii/Utiliza-ccedil-atilde-o/Menus-Wii/Gestao-de-Dados-/Gestao-de-Dados--242887.html 

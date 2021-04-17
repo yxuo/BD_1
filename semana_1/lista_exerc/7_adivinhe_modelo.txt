@@ -1,0 +1,15 @@
+7 - Um programador recebe um documento especificando precisamente a estrutura de um banco de dados. O programador deverá construir um software para acessar o banco de dados através de um SGBD conforme esta estrutura. Esse documento é um modelo conceitual, um modelo lógico ou um modelo físico?
+
+Análise:
+1   - Tem um documento com todos os detalhes do BD.
+1.1 - Contém detalhes precisos, portanto, completos para implementar completamente o sistema.
+2   - Contruir programa para acessar SGBD seguindo a estrutura do documento.
+
+Levantamento:
+1   - Modelo conceitual -> Projeto conceitual -> Abstrato, resumido, ilustrativo
+2   - Modelo lógico -> Projeto lógico -> Detalhado, arquitetado, planejado
+3   - Modelo físico - Descrição com itens técnicos e completos a serem implementados
+3.1 - Projeto físico - A operação de fazer o modelo físico e desenvolver o SGBD final.
+
+Conclusão:
+Um documento especificando e precisando o SGBD a ser feito. Além disso o SGBD deve ser implementado. Não notou-se margem para dúvida de que se trata de um modelo físico.

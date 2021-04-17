@@ -1,0 +1,9 @@
+12 - Qual a diferença entre a redundância de dados controlada e a redundância de dados não controlada? Dê exemplos de cada uma delas.
+
+Resposta:
+Redundância de dados controlada - um sistema que possui um verificador de duplicatas e inconsistência entre as cópias.
+
+Redundância de dados não controlada - um sistema que não possui este verificador, portanto está sujeito a falhas e inconsistências.
+
+Referência:
+https://brainly.com.br/tarefa/6437187 

@@ -1,0 +1,7 @@
+11 - A definição do tipo de um dado (numérico, alfanumérico,...) faz parte do modelo conceitual, do modelo lógico ou do modelo físico?
+
+Resposta:
+Modelo físico
+
+Referência:
+https://pt.stackoverflow.com/questions/294699/qual-a-diferen%C3%A7a-entre-modelagem-conceitual-l%C3%B3gica-e-f%C3%ADsica 

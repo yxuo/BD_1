@@ -1,0 +1,12 @@
+4 - Motivos para escolher entre arquivos ou SGBD
+
+Arquivos:
+- Quando as informações armazenadas são simples e sem previsão de mudança.
+- Há usos de tempo real em que programas de sgbd seriam complicados de lidar por causa de sobrecarga.
+
+SGBD:
+- Flexibilidade, por exemplo, múltiplas visões das mesmas informações.
+- Redução de tempo para acessar informações, indexação por exemplo cataloga dados para serem pesquisados sem necessidade de acessar diretamente todos os arquivos para pesquisar.
+
+Fonte:
+http://www2.unemat.br/~ivanpires/files/dwl/bd/slides/bd_2.pdf 

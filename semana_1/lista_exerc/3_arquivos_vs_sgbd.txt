@@ -1,0 +1,11 @@
+1. Índice de itens:
+Em arquivos isto é feito manualmente
+Em sgbd é automatizado e faiclitado
+
+2. Organização de cada item
+Em arquivos o programa deve preocupar-se com a ordem e hierarquia de cada arquivo.
+Em sbg isto não é necessário.
+
+3. Manutenção
+Em arquivos o programa deve monitorar os itens manualmente e aplicar atualizações.
+Em sgbd iso não é necessário.

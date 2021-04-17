@@ -1,0 +1,37 @@
+<mxfile>
+    <diagram id="aUETnXjzK3NFsbkfd5LC" name="Page-1">
+        <mxGraphModel dx="506" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div&gt;Um sistema envia para o servidor novos arquivos de texto, como &quot;nome_do_arquivo&quot;.txt&lt;/div&gt;&lt;div&gt;O sistema não verifica se no servidor o nome dos arquivos serão iguais, portanto, redundantes&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60.629999999999995" y="80" width="360" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Anotação local" style="whiteSpace=wrap;html=1;verticalAlign=top;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="180" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;&quot;&gt;Nuvem&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;verticalAlign=top;align=left;spacingTop=0;spacingLeft=20;spacing=2;" parent="1" vertex="1">
+                    <mxGeometry x="130.63" y="350" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;text-align: left&quot;&gt;Arquivos de anotação&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="151.88" y="390" width="178.75" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="nota.txt" style="whiteSpace=wrap;html=1;rounded=1;glass=0;" parent="1" vertex="1">
+                    <mxGeometry x="170.63" y="431.82" width="75" height="38.18" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;sketch=0;strokeWidth=1;startArrow=classic;startFill=1;entryX=0.532;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="250.63" y="440.91" width="71.26" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="1 - Redundância não controlada" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;glass=0;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="60.63" y="40" width="409" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="nota.txt" style="whiteSpace=wrap;html=1;rounded=1;glass=0;" vertex="1" parent="1">
+                    <mxGeometry x="202.5" y="210" width="75" height="38.18" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
