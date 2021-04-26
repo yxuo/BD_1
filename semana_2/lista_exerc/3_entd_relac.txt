@@ -1,0 +1,6 @@
+3 - O que é o papel de uma entidade em um relacionamento. Quando é necessário especificar o papel das entidades de relacionamento?
+
+Resposta:
+O papel da Entidade num relacionamento é msotrar o que ela pode ou não fazer com a outra entidade. Como ela se comunica, que dados passa e como ela passa esses dados. Se ela depende ou não da outra parte, se ela precisa estar associada.
+
+Deve-se especificar o papel da entidade num relacionamento quando o contexto não for algo comum ou de fácil comrpeensão pela maioria das pessoas ou quando há muitos objetos inter-relacionados, facilitando a compreensão.

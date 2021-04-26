@@ -6,4 +6,4 @@ Redundância de dados controlada - um sistema que possui um verificador de dupli
 Redundância de dados não controlada - um sistema que não possui este verificador, portanto está sujeito a falhas e inconsistências.
 
 Referência:
-https://brainly.com.br/tarefa/6437187 
+https://brainly.com.br/tarefa/6437187

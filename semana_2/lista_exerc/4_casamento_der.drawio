@@ -1,0 +1,40 @@
+<mxfile>
+    <diagram id="lpKGh_ZZmH6A0EWYgQ_b" name="Questão">
+        <mxGraphModel dx="888" dy="1247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="K8ixmE3VCN6pQSZZg9Ir-13" target="K8ixmE3VCN6pQSZZg9Ir-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-16" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" source="K8ixmE3VCN6pQSZZg9Ir-2" target="K8ixmE3VCN6pQSZZg9Ir-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-2" value="PESSOA" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="363" y="120" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-4" value="CASAMENTO" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="K8ixmE3VCN6pQSZZg9Ir-10" target="K8ixmE3VCN6pQSZZg9Ir-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-21" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" source="K8ixmE3VCN6pQSZZg9Ir-10" target="K8ixmE3VCN6pQSZZg9Ir-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-10" value="marido" style="whiteSpace=wrap;html=1;align=center;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="363" y="220" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-13" value="esposa" style="whiteSpace=wrap;html=1;align=center;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="423" y="220" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-34" value="&lt;h1&gt;4 - Casamento e DER&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="749" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-35" value="&lt;span style=&quot;text-align: left; text-indent: 0px; display: inline; float: none;&quot;&gt;&lt;b style=&quot;font-family: helvetica; font-size: 18px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px;&quot;&gt;Segundo este DER o banco de dados poderia conter um casamento&amp;nbsp;em que uma pessoa está casada consigo mesma?&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-family: helvetica; font-size: 18px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; font-weight: 400; text-align: left; text-indent: 0px; display: inline; float: none;&quot;&gt;Sim, pois a pessoa está relacionada consigo mesma, indiretamente.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: helvetica; font-size: 18px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px;&quot;&gt;O DER permite que a mesma pessoa apareça em dois casamentos diferentes, uma vez como marido e outra vez como esposa?&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Não poderá pois é uma relação 1, vulgo 1:1, mínimo 1, máximo 1.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;blockquote style=&quot;font-family: helvetica; font-size: 18px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; font-weight: 400; margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;text-align: left; text-indent: 0px; display: inline; float: none; word-spacing: 0px; text-transform: none; letter-spacing: normal; font-weight: 400; font-style: normal; font-size: 18px; font-family: helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;b style=&quot;font-family: helvetica; font-size: 18px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px;&quot;&gt;Caso uma destas situações possa ocorrer, como o DER deveria ser modificado para impedi-las?&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Este tipo de problema acontece quando uma das cardinalidades está como 1:n. Limitando a cardinalidade de ambos para 1:1 resolve o problema.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="748" height="320" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

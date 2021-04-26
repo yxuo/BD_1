@@ -1,0 +1,89 @@
+<mxfile>
+    <diagram id="lpKGh_ZZmH6A0EWYgQ_b" name="Questão">
+        <mxGraphModel dx="626" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="K8ixmE3VCN6pQSZZg9Ir-34" value="&lt;h1&gt;8 - Dê exemplo de relacionamento ternário.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="749" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="1,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="122" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="MATERIAL" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="0,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="123" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="REQUISICAO" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="0,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="124" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="PEDIDO" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="240" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="PROJETO" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="160" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="&lt;h1 style=&quot;text-align: left&quot;&gt;Mostre como a mesma realidade pode ser modelada somente com relacionamentos binários.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="320" width="749" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="0,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="160" target="155">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="428.7500000000002" y="570" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="158" target="153">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="371.5000000000001" y="570" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="152" value="MATERIAL" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="510" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="REQUISICAO" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="510" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="156" target="155">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="481.2500000000002" y="720" as="sourcePoint"/>
+                        <mxPoint x="486" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="PEDIDO" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="750" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="PROJETO" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="1,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="152" target="156">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="690" as="sourcePoint"/>
+                        <mxPoint x="400" y="850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="158" value="PROJETO" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="440" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="1,n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="152" target="158">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="311.11111111111086" y="490" as="sourcePoint"/>
+                        <mxPoint x="383.43949044585975" y="620.191082802548" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="160" value="PROJETO" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=16;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=none;" edge="1" parent="1" source="153" target="160">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="488.8888888888889" y="490" as="sourcePoint"/>
+                        <mxPoint x="416.56050955414025" y="620.191082802548" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

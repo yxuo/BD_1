@@ -1,0 +1,1 @@
+Imaginei que bastava colocar um losângulo entre os 2, associar a entidade ao losângulo e estes se relacionando como se fosse ternário. Mas aparentemente não é assim.

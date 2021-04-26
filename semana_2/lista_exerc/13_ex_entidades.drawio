@@ -1,0 +1,109 @@
+<mxfile>
+    <diagram id="JBBhmLulQRX5kmYFgjL2" name="Page-1">
+        <mxGraphModel dx="667" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Questão 13" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="348" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;h2&gt;Invente exemplos de entidades com vários tipos de identificadores:&lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;h2&gt;uma entidade cujo identificador é composto por um único atributo&lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="160" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Nota" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="232" width="160" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="NotaID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1" parent="7" vertex="1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Conteudo" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="7" vertex="1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;h2&gt;uma entidade cujo identificador é composto por mais de um atributo&lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="360" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="440" width="160" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="UserID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1" parent="12" vertex="1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Assinatura" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Idioma" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;h2&gt;uma entidade cujo identificador é composto por relacionamentos &lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="600" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="ctrZH6EMBJbDd5e4FdQ9-53" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="327" y="720" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="34" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="acessa" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="680" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Aplicativo" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;h2&gt;uma entidade cujo identificador é composto por atributos e relacionamentos&lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="800" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="40" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Nota" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="880" width="160" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="NotaID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1" parent="40" vertex="1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Conteudo" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="40" vertex="1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="44" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="407" y="923" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="acessa" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="883" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="48" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="953" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="0,n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="46" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Sincroniza" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="883" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Aplicativo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="880" width="160" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="UserID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1" parent="48" vertex="1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="ChaveNuvem" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="48" vertex="1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Núvem" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="883" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ctrZH6EMBJbDd5e4FdQ9-53" value="Nota" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

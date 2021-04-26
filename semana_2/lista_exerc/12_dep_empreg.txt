@@ -1,0 +1,24 @@
+Esquema: EMP_DEP
+
+Entidade:  EMPREGADO
+    Atributos:  CÓDIGO: inteiro
+    Identificadores: CÓDIGO
+    
+Entidade:  DEPENDENTE
+    Atributos:  NÚMERO_SEQUENCIA:inteiro
+                NOME:texto(50)
+    Identificadores:    EMPREGADO via
+                        EMP_DEP
+                        NÚMERO_SEQUENCIA
+                                
+Relacionamento: EMP_DEP
+Entidades:  (1,1) EMPREGADO
+            (0,n) DEPENDENTE
+
+Considere que um dependente de um empregado possa ser também empregado. Como o modelo deveria ser modificado para evitar o armazenamento redundante das informações das pessoas que são tanto dependentes quanto empregados?
+
+Resposta:
+Baseado neste modelo nota-se que:
+1. Há sempre um empregado. Este empregado pode ou não ter múltiplos dependentes.
+2. Havendo um ou mais dependentes, cada um deve sujeitar-se a um único empregado. Não podendo compartilhá-lo ou deixar de ter.
+Para permitir um dependente ser empregado é necessário criar um relacionamento recursivo. Para evitar redundância entre dependente e empregado é interessante criar duas especializações: DEPENDENTE_EMPREGADO, e DEPENDENTE_NAO_EMPREGADO. Onde DEPENDENTE_EMPREGADO se relaciona recursivamente para EMPREGADO.
