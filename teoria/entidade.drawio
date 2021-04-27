@@ -118,6 +118,17 @@
                 <mxCell id="47" value="Entidade Normal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="480" y="560" width="120" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;strokeWidth=2;entryX=0.167;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="54" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="630" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="Não tem chave primária, usa chave estrangeira" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="182" y="640" width="50" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
