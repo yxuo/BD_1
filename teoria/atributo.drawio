@@ -167,6 +167,9 @@
                 <mxCell id="100" value="&lt;h1&gt;Fontes:&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://medium.com/@ericgcc/dont-get-wrong-explained-guide-to-choosing-a-database-design-notation-for-erd-in-a-while-7747925a7531&quot;&gt;https://medium.com/@ericgcc/dont-get-wrong-explained-guide-to-choosing-a-database-design-notation-for-erd-in-a-while-7747925a7531&lt;/a&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="80" y="870" width="630" height="120" as="geometry"/>
                 </mxCell>
+                <mxCell id="102" value="Para ser opcional basta ter cardinalidade mínima 0.&lt;br&gt;Portanto qualquer atributo pode ser também opcional." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="293" y="640" width="50" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
